@@ -1,0 +1,18 @@
+.accordion {
+    border: 1px solid slategray;
+    border-radius: 2px;
+}
+
+.accordion .accordion-title {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.accordion .accordion-title:hover {
+    background: cornflowerblue;
+    cursor: pointer;
+}
+
+.accordion .accordion-content {
+    padding: 20px;
+}

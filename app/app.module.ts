@@ -15,6 +15,7 @@ import { LikeComponent } from './like/like.component';
 import { VoteComponent } from './vote/vote.component';
 import { TweetComponent } from './tweet/tweet.component';
 import { TweetsComponent } from './tweets/tweets.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { TweetsComponent } from './tweets/tweets.component';
     VoteComponent,
     TweetComponent,
     TweetsComponent,
+    AccordionComponent,
 
   ],
   imports: [

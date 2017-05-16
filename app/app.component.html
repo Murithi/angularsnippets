@@ -30,6 +30,13 @@
 </header>
 <div class="container">
     <h1>Welcome to Staarabika</h1>
+    <accordion title="Who can see my stuff?">
+        Content of who can see my stuff
+    </accordion>
+
+    <accordion title="Who can contact me?">
+        Content of who can contact me
+    </accordion>
     <courses></courses>
     <authors></authors>
     <stars [is_favorite]="post.isFavorite" (change)="onFavoriteChange($event)"></stars>
@@ -41,4 +48,5 @@
     <div *ngFor="let tweet of tweets">
         <tweet [data]="tweet"></tweet>
     </div>
+
 </div>
