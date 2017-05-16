@@ -1,0 +1,17 @@
+#vote {
+    width: 20px;
+    text-align: center;
+}
+
+.vote-button {
+    cursor: pointer;
+}
+
+.vote-count {
+    font-size: 1.2em;
+}
+
+.highlighted {
+    font-weight: bold;
+    color: darkorange;
+}
